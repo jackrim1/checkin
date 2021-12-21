@@ -57,6 +57,7 @@ group :development, :test do
   # Security tooling to
   # gem "brakeman"
   # gem "bundler-audit", github: "rubysec/bundler-audit"
+  gem "rspec-rails"
 end
 
 group :development do
@@ -71,6 +72,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "rspec-rails"
 end
 
 group :test do
