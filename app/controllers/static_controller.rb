@@ -18,4 +18,7 @@ class StaticController < ApplicationController
 
   def privacy
   end
+
+  def welcome
+  end
 end

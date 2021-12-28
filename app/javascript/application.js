@@ -23,3 +23,6 @@ require("local-time").start()
 
 // Start Rails UJS
 Rails.start()
+
+const pastel = require("pastel-shades")
+pastel.pastelStart();
