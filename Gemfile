@@ -58,6 +58,7 @@ group :development, :test do
   # gem "brakeman"
   # gem "bundler-audit", github: "rubysec/bundler-audit"
   gem "rspec-rails"
+  gem "factory_bot_rails"
 end
 
 group :development do
